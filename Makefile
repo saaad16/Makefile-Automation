@@ -16,4 +16,10 @@ train:
 evaluate:
 	py scripts\evaluate.py
 
+predict:
+	py scripts\evaluate.py
+
 all: setup download-data preprocess feature train evaluate
+
+clean:
+	del /q data\raw\* data\processed\* features\* models\* results\*
