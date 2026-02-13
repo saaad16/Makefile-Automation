@@ -12,3 +12,8 @@ feature:
 
 train:
 	py scripts\train.py
+
+evaluate:
+	py scripts\evaluate.py
+
+all: setup download-data preprocess feature train evaluate
