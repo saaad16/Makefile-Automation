@@ -9,3 +9,6 @@ preprocess:
 
 feature:
 	py scripts\feature_engineering.py	
+
+train:
+	py scripts\train.py
