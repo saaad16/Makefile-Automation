@@ -3,3 +3,6 @@ setup:
 
 download-data:
 	py scripts\download_data.py
+
+preprocess:
+	py scripts\preprocess.py
