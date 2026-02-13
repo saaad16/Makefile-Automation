@@ -6,3 +6,6 @@ download-data:
 
 preprocess:
 	py scripts\preprocess.py
+
+feature:
+	py scripts\feature_engineering.py	
